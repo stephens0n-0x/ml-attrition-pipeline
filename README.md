@@ -32,11 +32,11 @@ The pipeline also uses **SMOTE** to balance the training data and **StratifiedKF
 
 ## Results
 
-| Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| Random Forest | 0.7993 | 0.3636 | 0.3404 | 0.3516 | **0.7173** |
-| Logistic Regression | 0.7857 | 0.3750 | 0.5106 | **0.4324** | 0.7092 |
-| Decision Tree | 0.6905 | 0.2250 | 0.3830 | 0.2835 | 0.4867 |
+| Model               | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|---------------------|---------:|----------:|-------:|---------:|--------:|
+| Random Forest       |   0.7993 |    0.3636 | 0.3404 |   0.3516 |  0.7173 |
+| Logistic Regression |   0.7857 |    0.3750 | 0.5106 |   0.4324 |  0.7092 |
+| Decision Tree       |   0.6905 |    0.2250 | 0.3830 |   0.2835 |  0.4867 |
 
 Random Forest achieved the highest cross-validation F1 score on SMOTE-augmented training data:
 
