@@ -6,6 +6,7 @@ __pycache__/
 .DS_Store
 data/
 models/
+outputs/
 *.pkl
 *.joblib
 notebooks/.ipynb_checkpoints/
